@@ -1,0 +1,50 @@
+  [1m[35m (356.6ms)[0m  [1m[35mCREATE DATABASE "routes_controllers_development" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+  [1m[35m (320.9ms)[0m  [1m[35mCREATE DATABASE "routes_controllers_test" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+Started GET "/" for 127.0.0.1 at 2022-06-29 11:50:36 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/stachecoding2/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.8/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/stachecoding2/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.8/lib/rails/templates/rails/welcome/index.html.erb (4.7ms)
+Completed 200 OK in 21ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2022-06-29 11:50:48 -0700
+
+ActionController::RoutingError - uninitialized constant UsersController:
+
+Started POST "/__better_errors/bac778837b59e468/variables" for 127.0.0.1 at 2022-06-29 11:50:49 -0700
+Started GET "/" for 127.0.0.1 at 2022-06-29 11:52:18 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/stachecoding2/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.8/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/stachecoding2/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.8/lib/rails/templates/rails/welcome/index.html.erb (3.8ms)
+Completed 200 OK in 10ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2022-06-29 11:52:38 -0700
+Processing by Rails::WelcomeController#index as */*
+  Rendering /home/stachecoding2/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.8/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/stachecoding2/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.8/lib/rails/templates/rails/welcome/index.html.erb (2.7ms)
+Completed 200 OK in 17ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2022-06-29 11:53:24 -0700
+
+ActionController::RoutingError - uninitialized constant UsersController:
+
+Started GET "/users" for ::1 at 2022-06-29 11:53:44 -0700
+
+ActionController::RoutingError - uninitialized constant UsersController:
+
+Started GET "/users" for 127.0.0.1 at 2022-06-29 11:54:37 -0700
+
+ActionController::RoutingError - uninitialized constant UsersController:
+
+Started GET "/users" for 127.0.0.1 at 2022-06-29 11:54:49 -0700
+
+ActionController::RoutingError - uninitialized constant UsersController:
+
+Started GET "/users" for 127.0.0.1 at 2022-06-29 11:55:03 -0700
+
+ActionController::RoutingError - uninitialized constant UsersController:
+
